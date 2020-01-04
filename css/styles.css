@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  margin-top: 50px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.side-menu{
+  width: 150px;
+  height: 600px;
+  background: #1d80e9;
+}
+.side-menu ul{
+  list-style-type: none;
+}
+.side-menu ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: dodgerblue;
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid blue;
+}
+.side-menu ul li a:hover{
+  background: #466fbc;
+}
+.side-menu i{
+  margin-right: 10px;
+}
+
+
+#can{
+  background-color: rgb(166, 194, 206);
+  margin-left: 50px;
+}
