@@ -3,8 +3,8 @@ const GAME_SPEED = 300;
 
 
 //フィールドサイズ
-const FIELD_COL = 10;
-const FIELD_ROW = 20;
+const FIELD_COL = 30;
+const FIELD_ROW = 25;
   
 // ブロック一つのサイズ（ピクセル）
 const BLOCK_SIZE = 30;
@@ -124,9 +124,9 @@ for (let y=0; y<FIELD_ROW ; y++)
 }
 
 //テスト
-field[ 5][8] =1;
-field[19][0] =1;
-field[19][9] =1;
+// field[ 5][8] =1;
+// field[19][0] =1;
+// field[19][9] =1;
 
 }
 
@@ -330,3 +330,11 @@ document.onkeydown = function(e)
   drawField();
   drawTetro();
 }
+
+var canvas = document.getElementById("kan");
+var context = canvas.getContext('2d');
+context.fillRect(100,100,100,100);
+// {
+//   var d = new Date();
+//   document.write(d.getFullYear()+ "/" + (d.getMonth()+1) + "/" + d.getDate());
+// }
